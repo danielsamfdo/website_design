@@ -1,0 +1,30 @@
+#Time{
+	
+	font-family: "Arial Black",Gadget,sans-serif;
+	color: #fff;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 10px;
+	padding: 10px;
+  	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  	box-shadow:         3px 3px 5px 6px #ccc;
+	text-align: center;
+    /*box-shadow: 10px 10px 100px rgba(255, 255, 255, 1) inset, -10px -10px 100px rgba(222, 212, 212, 1) inset;*/
+	border: 1px solid #fff;
+	border-radius: 7px;
+	text-shadow: #AAA 1px 1px 1px;
+	display: inline-flex;
+	float: right;
+}
+
+.Time_elts{
+	display: inline-flex;
+}
+.days_highlight{
+	text-shadow:#222 1px 1px 1px;
+}
+.numbers{
+	
+}

@@ -1,0 +1,56 @@
+<!-- index.html -->
+	<!DOCTYPE html>
+	<html ng-app='rexApp'>
+	<head>
+	  <!-- SCROLLS -->
+	  <!-- load bootstrap and fontawesome via CDN -->
+	  <link rel="stylesheet" href="bootstrap.min.css" />
+	  <link rel="stylesheet" href="font-awesome.css" />
+	  <link rel="stylesheet" href="Timer.css" />
+	  <link href="css/tweetbox.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	  <link rel="stylesheet" href="Page.css" />
+	  <link rel="stylesheet" href="daniel.css" />
+	  <!-- SPELLS -->
+	  <!-- load angular and angular route via CDN -->
+	  <script src="angular.js" type="text/javascript"></script>
+      <script src="angular-route.js" type="text/javascript"></script>
+      <script src="angular-sanitize.min.js" type="text/javascript"></script>
+	  <script src="script.js" type="text/javascript"></script>
+	  <script src="js/modernizr.js" type="text/javascript"></script>
+	  <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+	</head>
+	<body id="body_bg" ng-controller='mainController'>
+
+		<!-- HEADER AND NAVBAR -->
+		<header ng-controller='headerController'>
+			<!--<h1 class='title'>REX!</h1>-->
+			<div id="Time">
+				<div class="Time_elts days" ng-bind-html="time_rem_days"></div><div class="days-highlight">DAYS</div>   <div class="Time_elts" ng-bind-html="time_rem_hours"></div>  : <div class="Time_elts" ng-bind-html="time_rem_minutes"></div>  : <div class="Time_elts" ng-bind-html="time_rem_seconds"></div>
+			</div>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">Revelation Exhibition</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+					<li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+					<li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+
+		<!-- MAIN CONTENT AND INJECTED VIEWS -->
+		<div id="main" >
+			<div id="template">
+				<div ng-view> </div>
+			</div>
+		<!-- angular templating -->
+		<!-- this is where content will be injected -->
+		</div>
+
+	
+	</body>
+	</html>

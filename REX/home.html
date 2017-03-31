@@ -1,0 +1,84 @@
+ home.html -->
+	<div class="jumbotron center bg_color">
+	<div ng-controller='sidepaneController'>
+<!-- 		<div class="sidemenu"  >
+
+			<ul>
+				<li ng-repeat='item in items'><img ng-src='{{item.url}}' ng-click='change_box($index)'></img>
+					<br/>
+				</li>
+    		</ul>
+    	</div>
+ -->    	<div ng-controller="homeContentController">
+	    	<section ng-class="['carousel_links_container']">
+			  <div id="carousel" ng-class="{'show_1' : exhibit_item_active==1,'show_2' : exhibit_item_active==2,'show_3' : exhibit_item_active==3,'show_4' : exhibit_item_active==4,'show_5' : exhibit_item_active==5,'show_6' : exhibit_item_active==6,'show_7' : exhibit_item_active==7}">
+			    <figure ng-repeat='item in items'><img ng-src="{{item.url}}" ng-class="['carousel_images']"></img></figure>
+			  </div>
+			</section>
+
+			<div ng-class="['tab_nav']">
+				<div ng-class="['left']">
+					<img ng-src="{{left_url}}" ng-click="prevside()"></img>
+				</div>
+				<div ng-class="['right']">
+					<img ng-src="{{right_url}}" ng-click="nextside()"></img>
+				</div>
+			</div>
+			<div>
+			<section ng-class="['content_container']">
+				<section id="carousel_content" ng-class="{'show_1' : exhibit_item_active==1,'show_2' : exhibit_item_active==2,'show_3' : exhibit_item_active==3,'show_4' : exhibit_item_active==4,'show_5' : exhibit_item_active==5,'show_6' : exhibit_item_active==6,'show_7' : exhibit_item_active==7}">
+					<div ng-repeat="item in items"></div>
+					
+				</section>
+			</section> 
+			</div>
+			<h1 class="center_text">REX - End Time Express</h1>
+
+
+			<p>{{ message }}</p>
+		</div>
+		<!-- <div class="fallback-stage"></div>
+	    <div class="stage">
+	      <div class="cube animate_cube">
+	        <figure class="back"></figure>
+	        <figure class="top"></figure>
+	        <figure class="bottom"></figure>
+	        <figure class="left"></figure>
+	        <figure class="right">
+	            <p ng-bind="exhibit_items[exhibit_item_active].message"></p>
+	            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.b44c7db4edf962ad9e7d1d791040bf60.en.html#_=1412710006067&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=danielsamfdo&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 243px; height: 20px;"></iframe>
+				<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+	        </figure>
+	        <figure class="front {{show_image}}">
+	        
+	        </figure>
+	    </div> -->
+    </div>
+</div>
+
+
+
+
+
+
+
+		<!-- <div id="fadeout_button" ng-class="centered-button" ng-show="btn_show">
+			<button class="btn btn-xlarge black" ng-click="change()">Click to start the exhibition</button>
+		</div>
+		<ul ng-hide="btn_show" id="fadein_menu" class="ch-grid" ng-controller='rexExhibitionController'>
+		    <li ng-class="{'active' : $index==rexActive}" ng-repeat="item in exhibition_items" ng-click='setActive($index)'>
+		        <div ng-class="['ch-item', getClass($index)]" ng-click=''>               
+			        <div ng-class="['ch-info-wrap']">
+			            <div ng-class="['ch-info']">
+			                <div ng-class="['ch-info-front', getClass($index)]"></div>
+			                <div ng-class="['ch-info-back']">
+			                    <h3 ng-bind='item.heading'></h3>
+			                    <p ng-bind='item.description'><a ng-bind='item.hover'></a></p>
+			                </div>   
+			            </div>
+			        </div>
+			    </div>
+		    </li>
+		</ul>
+ -->
+	<!--</div>
