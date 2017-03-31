@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>V.Arun</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css">    -->
+  <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="fa/css/font-awesome.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <!-- <script>
+    var shiftWindow = function() { scrollBy(0, -70) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+  </script>
+  <style>
+    .custom-navbar{
+      background-color: black;
+      color: white;
+    }    
+  </style> -->
+  <script type="text/javascript">
+    jQuery(document).ready(function(){
+      $(".button-collapse").sideNav();
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper"><a class="page-title">UMass Amherst</a></div>
+      </div>
+    </nav>  
+  <ul id="slide-out" class="side-nav fixed">
+    <li><div class="userView">
+      <div class="background">
+        <img src="images/office.png">
+      </div>
+      <a href="#!user"><img class="circle" src="images/profilepic.jpg"></a>
+      <a href="#!name"><span class="white-text name">V. Arun</span></a>
+      <a href="#!email"><span class="white-text email">arun@cs.umass.edu</span></a>
+      <a href="#!profession"><span class="white-text email">Associate Professor,<br/>Department of Computer Science,<br/> University of Massachusetts Amherst </span></a>
+    </div></li>
+    <li><a class="waves-effect" href="new_1.html"><i class="material-icons">perm_identity</i>Bio</a></li>
+    <li><a class="waves-effect" href="research_interests.html"><i class="material-icons">library_books</i>Research Interests</a></li>
+    <li><div class="divider"></div></li>
+    <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header waves-effect">Publications<i class="material-icons">arrow_drop_down</i></a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="publications.html">2011</a></li>
+              <li><a href="publications.html">2010</a></li>
+              <li><a href="publications.html">2009</a></li>
+              <li><a href="publications.html">2008</a></li>
+              <li><a href="publications.html">2007</a></li>
+              <li><a href="publications.html">2006</a></li>
+              <li><a href="publications.html">2004</a></li>
+              <li><a href="publications.html">2003</a></li>
+              <li><a href="publications.html">2002</a></li>
+              <li><a href="publications.html">2001</a></li>
+              <li><a href="publications.html">1999</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">perm_identity</i>Contact</a></li>
+  </ul>
+  </header>
+  
+  
+
+<!-- <nav class="navbar navbar-custom navbar-fixed-top custom-color">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="#bio">Home</a></li>
+        <li><a href="#publications">Publications</a></li>
+      </ul>
+ -->      <!-- <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+      </ul> -->
+<!--     </div>
+  </div>
+</nav>
+ -->
+<div id="main_content">   
+  <div class="container">
+    <div class="row">
+      <div class="col l12">
+        <div id="bio" class="section">
+          <div class="">
+            <h4><i class="fa fa-book fa-fw"></i> Research Interests </h4>
+            <p align="justify">My research interests lie  broadly in networked systems. I have conducted research on several topics including mobile and wireless networking, content distribution, peer-to-peer systems, Internet architecture,  protocol design and analysis, datacenter systems, and network measurement. Some of my recent  research efforts are:</p>
+            <!-- <div align="justify">
+                <ul>
+                  <li><strong>MobilityFirst</strong>: This "Future
+                      Internet Architecture" effort seeks to design an implement a
+                      future Internet with mobility and trustworthiness as central design
+                      goals. I am  co-leading the MobilityFirst architecture in
+                      collaboration with Rutgers and several other institutions.  Check out
+                      the <a href="http://mobilityfirst.cs.umass.edu/">project
+                      page</a> for an overview.
+                  </li>
+                  <li>
+                      <strong>Robust wireless  stack</strong>: Seeks to develop a robust protcol stack for diverse wireless networks ranging from well-connected mesh networks to to highly mobile, vehicular, or disruption-tolerant networks. 
+                      <ul>
+                          <li>Routing: <a href="http://www.cs.umass.edu/~arun/papers/R3.pdf">R3 </a>(MobiCom'11) ensures robust routing performance in any kind of a multi-hop wireless network. R3 builds upon  our work on RAPID (IEEE/ACM ToN'10, Sigcomm'07), one of the first DTN routing protocols validated by real deployment.</li>
+                          <li>Transport: <a href="http://www.cs.umass.edu/~arun/papers/hop.pdf">Hop</a> (NSDI'09) is a "block-switched" hop-by-hop transport protocol that dramatically outperforms TCP  and is robust to routing disruptions.</li>
+                      </ul>
+                  </li>
+                  <li><strong>Mobile P3</strong>: Seeks to optimize performance, price, and power consumption in a multi-technology mobile world. Check out our work on <a href="http://www.cs.umass.edu/~arun/papers/TailEnder.pdf">TailEnder</a><a href="http://www.cs.umass.edu/~arun/papers/tailender.pdf"></a> (IMC'09) to optimize 3G power consumption, and <a href="http://www.cs.umass.edu/~arun/papers/wiffler.pdf">Wiffler</a> (MobiSys'10) to balance performance and 3G usage.</li>
+                  <li><strong>Content networking</strong>: Our recent <a href="http://www.cs.umass.edu/~arun/papers/diverseTE.pdf">paper</a> (Infocom'11) reveals  surprising implications of replicated content on ISP traffic engineering. </li>
+                </ul>
+              </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/office.png">
+            <span class="card-title">Mobility First</span>
+          </div>
+          <div class="card-content">
+            <p>This "Future Internet Architecture" effort seeks to design an implement a
+                      future Internet with mobility and trustworthiness as central design
+                      goals. I am  co-leading the MobilityFirst architecture in
+                      collaboration with Rutgers and several other institutions.  Check out
+                      the <a href="http://mobilityfirst.cs.umass.edu/">project
+                      page</a> for an overview.</p>
+          </div>
+          <div class="card-action">
+            <a href="http://mobilityfirst.cs.umass.edu/">Project Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/office.png">
+            <span class="card-title">Robust wireless stack</span>
+          </div>
+          <div class="card-content">
+            Seeks to develop a robust protcol stack for diverse wireless networks ranging from well-connected mesh networks to to highly mobile, vehicular, or disruption-tolerant networks. 
+            <ul>
+                <li>Routing: <a href="http://www.cs.umass.edu/~arun/papers/R3.pdf">R3 </a>(MobiCom'11) ensures robust routing performance in any kind of a multi-hop wireless network. R3 builds upon  our work on RAPID (IEEE/ACM ToN'10, Sigcomm'07), one of the first DTN routing protocols validated by real deployment.</li>
+                <li>Transport: <a href="http://www.cs.umass.edu/~arun/papers/hop.pdf">Hop</a> (NSDI'09) is a "block-switched" hop-by-hop transport protocol that dramatically outperforms TCP  and is robust to routing disruptions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/office.png">
+            <span class="card-title">Mobile P3</span>
+          </div>
+          <div class="card-content">
+            <p>Seeks to optimize performance, price, and power consumption in a multi-technology mobile world. Check out our work on <a href="http://www.cs.umass.edu/~arun/papers/TailEnder.pdf">TailEnder</a><a href="http://www.cs.umass.edu/~arun/papers/tailender.pdf"></a> (IMC'09) to optimize 3G power consumption, and <a href="http://www.cs.umass.edu/~arun/papers/wiffler.pdf">Wiffler</a> (MobiSys'10) to balance performance and 3G usage.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/office.png">
+            <span class="card-title">Content Networking</span>
+          </div>
+          <div class="card-content">
+            <p>Our recent <a href="http://www.cs.umass.edu/~arun/papers/diverseTE.pdf">paper</a> (Infocom'11) reveals  surprising implications of replicated content on ISP traffic engineering.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Contact</h5>
+        <div class="details-contact white-text">
+          <div class="contact-details-item">
+            
+                <i class="fa fa-envelope media-object" aria-hidden="true"></i>
+            
+                <a class="white-text" href="mailto:arun@cs.umass.edu">arun@cs.umass.edu</a>
+            
+          </div>
+          <div class="contact-details-item">
+              <i class="fa fa-phone media-object" aria-hidden="true"></i>
+              <a class="white-text" href="tel:413 545 3651">(413) 545-3651</a>
+          </div>
+          <div class="contact-details-item">
+                <i class="fa fa-fax media-object" aria-hidden="true"></i>
+              <a href="" class="white-text">(413) 545-1291</a>
+          </div>
+          <div class="contact-details-item">
+                <i class="fa fa-map-marker media-object" aria-hidden="true"></i>
+              Room 236, Computer Science Building,<br/> 140 Governors Dr Amherst,<br/> MA 01003
+          </div>
+        </div>
+        <!-- <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Research Projects</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Assistant</h5>
+        <div class="details-asst white-text">
+        <div class="contact-details-item">
+              <i class="fa fa-user media-object" aria-hidden="true"></i>
+              <a class="white-text" href="mailto:ksacco@cs.umass.edu">Karren Sacco</a>
+        </div>
+        <div class="contact-details-item">
+            <i class="fa fa-envelope media-object" aria-hidden="true"></i>
+            <a class="white-text" href="mailto:ksacco@cs.umass.edu">ksacco@cs.umass.edu</a>
+        </div>
+        <div class="contact-details-item">
+              <i class="fa fa-phone media-object" aria-hidden="true"></i>
+            <a class="white-text" href="tel:413 577 0292">(413) 577-0292</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014 Copyright Text
+    <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+    </div>
+  </div>
+</footer>
+
+<!-- 
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+ -->
+</body>
+</html>
+

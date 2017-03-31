@@ -1,0 +1,149 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+.maroon{
+  background: #8a2031;
+}
+
+
+.custom-color{
+  background: #477d31; 
+  /*#ee6e73;*/
+  /*background: hsla(358, 79%, 68%, 0.58);*/
+}
+.side-panel-color{
+  background: #477d31; 
+  /*#ee6e73;*/
+  background: rgba(71, 125, 49, 0.74);
+  /*hsla(358, 79%, 68%, 0.58);*/
+}
+
+.contact-details-item{
+  margin-bottom: 10px;
+}
+.card-image a{
+  color: white;
+}
+
+header, #main_content, footer {
+  /*padding-left: 300px;*/
+}
+
+@media only screen and (max-width : 992px) {
+  header, #main_content, footer {
+    /*padding-left: 0;*/
+  }
+}
+.m-b-15{
+  margin-bottom: 15px;
+}
+
+.caption{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.item-person img{
+  height: 200px;
+  width: 200px;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 200px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.banner{
+  height: 0.75em;
+  width: 12em;
+  float: left;
+  margin-top: .5em;
+}
+.carl-image{
+  height: 300px;
+}
+.person-img{
+  height: 75px;
+}
+
+html {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;;
+    /*src: url(sansation_light.woff);*/
+}
+.people-content img{
+  padding-top: 15px;
+  height: 185px;
+  width: 200px;
+}
+@media only screen and (max-width : 992px) {
+  .people-content img {
+    padding-top: 15px;
+    height: 185px;
+    width: 200px;
+  }
+}
+@media only screen and (min-width : 992px) {
+  .people-content img {
+    padding-top: 15px;
+    /*height: 185px;*/
+    /*width: 200px;*/
+  }
+}
+.people-content .card{
+  margin-right: 60px;
+}
+
+.card-title-font{
+  font-size: 20px !important;
+}
+
+.peopleItem{
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+    border: solid 1px #eeeeee
+}
+.people{
+  clear: both;
+}
+.people-left{
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.people-right{
+  padding-top: 15px;
+}
+
+#team-carl{
+  background: url('../images/team.jpg');
+}
+
+#network1-carl{
+  background: url('../images/mainPage.jpg');
+}
+
+#network2-carl{
+  background: url('../images/maxresdefault.jpg');
+}
+#network3-carl{
+  background: url('../images/office.png');
+}
+
